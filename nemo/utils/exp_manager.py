@@ -34,6 +34,7 @@ from lightning.pytorch.callbacks import Callback, ModelCheckpoint
 from lightning.pytorch.callbacks.early_stopping import EarlyStopping
 from lightning.pytorch.callbacks.timer import Interval, Timer
 from lightning.pytorch.loggers import MLFlowLogger, TensorBoardLogger, WandbLogger
+
 # XR AI compatibility change: use Lightning 2.6's deprecated Neptune import.
 from lightning.pytorch.loggers.neptune import NeptuneLogger
 from lightning.pytorch.loops import _TrainingEpochLoop
